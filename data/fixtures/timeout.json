@@ -1,0 +1,4 @@
+{
+  "scenario": "timeout",
+  "delay": "tool_timeout + 1 seconds"
+}

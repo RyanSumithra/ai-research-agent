@@ -1,0 +1,103 @@
+{
+  "question": "Compare different approaches to adding memory in an AI support agent.",
+  "short_answer": "LOW CONFIDENCE: Customer support automation should be evaluated on grounded answers, task resolution, appropriate escalation, latency, and cost. An AI support agent memory policy should define consent, retention, deletion, and access boundaries for customer information. A multi-agent architecture can separate customer support retrieval, routing, and specialist work, while adding coordination overhead and latency.",
+  "key_findings": [
+    {
+      "claim": "Customer support automation should be evaluated on grounded answers, task resolution, appropriate escalation, latency, and cost.",
+      "evidence_source_ids": [
+        "S8f4f2487ed"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "An AI support agent memory policy should define consent, retention, deletion, and access boundaries for customer information.",
+      "evidence_source_ids": [
+        "S995408544f"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "A multi-agent architecture can separate customer support retrieval, routing, and specialist work, while adding coordination overhead and latency.",
+      "evidence_source_ids": [
+        "Sa3afc1e8c7"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "Retrieval memory stores selected support facts outside the prompt and retrieves relevant entries for later interactions.",
+      "evidence_source_ids": [
+        "Sbfdcb31bec"
+      ],
+      "support": "partial"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S8f4f2487ed",
+      "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+      "title": "AI customer support evaluation — curated design note",
+      "retrieved_at": "2026-10-30T02:35:40.338220Z",
+      "relevance_score": 0.5,
+      "authority_score": 0.85,
+      "used": true
+    },
+    {
+      "id": "S995408544f",
+      "url": "https://www.nist.gov/privacy-framework",
+      "title": "Agent memory lifecycle — curated design note",
+      "retrieved_at": "2026-10-30T02:35:40.333775Z",
+      "relevance_score": 0.75,
+      "authority_score": 0.45,
+      "used": true
+    },
+    {
+      "id": "Sa3afc1e8c7",
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "title": "Multi-agent customer support coordination — curated design note",
+      "retrieved_at": "2026-10-30T02:35:40.333775Z",
+      "relevance_score": 0.75,
+      "authority_score": 0.45,
+      "used": true
+    },
+    {
+      "id": "Sbfdcb31bec",
+      "url": "https://docs.langchain.com/oss/python/concepts/memory",
+      "title": "Retrieval memory in a support agent — curated design note",
+      "retrieved_at": "2026-10-30T02:35:40.335174Z",
+      "relevance_score": 0.75,
+      "authority_score": 0.45,
+      "used": true
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reasoning": "1 cited sources meet the authority threshold; entailment judging is heuristic. Insufficient verified independent evidence, mock mode, or verification issues. Curated local notes are not live verification; confidence is capped at medium."
+  },
+  "assumptions": [
+    "No budget, workload, or deployment constraints were supplied."
+  ],
+  "limitations": [
+    "Extractive fallback summarizes source excerpts, not an exhaustive comparison or verified ranking; requested counts may be unmet.",
+    "Offline mock run: fixture content is not current web research",
+    "Local corpus contains authored background notes, not freshly fetched primary evidence"
+  ],
+  "next_steps": [
+    "Verify primary sources and benchmark against your workload.",
+    "Gather additional independent primary evidence before deciding."
+  ],
+  "metadata": {
+    "run_id": "8d9e7f4d9f8b458b98d50b0baca49ce1",
+    "steps_taken": 5,
+    "tools_used": [
+      "local_kb",
+      "web_search",
+      "fetch_page"
+    ],
+    "latency_ms": 18.36,
+    "token_usage": {
+      "input": 0,
+      "output": 0
+    },
+    "est_cost_usd": 0.0
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://qdrant.tech/documentation/",
+  "title": "Qdrant vector database \u2014 curated background note",
+  "text": "Qdrant is an open-source vector database with payload filtering and vector similarity search for RAG retrieval. A startup should benchmark filtered recall, ingestion throughput, operational effort, and memory use on its own data. This note does not establish current pricing or a top-three ranking."
+}

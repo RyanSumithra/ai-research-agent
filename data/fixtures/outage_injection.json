@@ -1,0 +1,5 @@
+{
+  "scenario": "outage_injection",
+  "search": "timeout",
+  "seed_url": "https://fixture.example/malicious"
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+  "title": "AI customer support evaluation \u2014 curated design note",
+  "text": "Customer support automation should be evaluated on grounded answers, task resolution, appropriate escalation, latency, and cost. A single-agent architecture offers a simpler debugging baseline than a multi-agent architecture. Test ambiguous requests, hostile documents, and unavailable tools before production."
+}

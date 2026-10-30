@@ -1,0 +1,5 @@
+{
+  "url": "https://weaviate.io/developers/weaviate",
+  "title": "Weaviate vector database \u2014 curated background note",
+  "text": "Weaviate is an open-source vector database supporting hybrid keyword and vector search for RAG retrieval. A startup should evaluate schema design, integrations, and operational complexity against its own product needs. Verify current deployment options and licensing in primary documentation."
+}

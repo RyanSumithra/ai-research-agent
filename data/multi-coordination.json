@@ -1,0 +1,5 @@
+{
+  "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+  "title": "Multi-agent customer support coordination \u2014 curated design note",
+  "text": "A multi-agent architecture can separate customer support retrieval, routing, and specialist work, while adding coordination overhead and latency. Parallel execution may help independent subtasks but is less useful for tightly coupled dialogue decisions. Compare against a single-agent baseline before adding roles."
+}

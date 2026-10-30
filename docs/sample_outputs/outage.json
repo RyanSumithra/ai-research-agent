@@ -1,0 +1,121 @@
+{
+  "question": "Compare vector database options for startup RAG products.",
+  "short_answer": "LOW CONFIDENCE: Weaviate is an open-source vector database supporting hybrid keyword and vector search for RAG retrieval. pgvector adds vector similarity search to PostgreSQL, allowing a startup to keep relational data and RAG embeddings together. Qdrant is an open-source vector database with payload filtering and vector similarity search for RAG retrieval.",
+  "key_findings": [
+    {
+      "claim": "Weaviate is an open-source vector database supporting hybrid keyword and vector search for RAG retrieval.",
+      "evidence_source_ids": [
+        "S90899f0e4c"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "pgvector adds vector similarity search to PostgreSQL, allowing a startup to keep relational data and RAG embeddings together.",
+      "evidence_source_ids": [
+        "Sc5f2c6c39c"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "Qdrant is an open-source vector database with payload filtering and vector similarity search for RAG retrieval.",
+      "evidence_source_ids": [
+        "S5d131ce421"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "A RAG vector database comparison should measure recall, latency, ingestion behavior, filtering correctness, and operations under representative workloads.",
+      "evidence_source_ids": [
+        "Sf110ffbdbe"
+      ],
+      "support": "partial"
+    },
+    {
+      "claim": "Milvus is an open-source vector database oriented toward scalable similarity search and RAG retrieval.",
+      "evidence_source_ids": [
+        "S4787f38d03"
+      ],
+      "support": "partial"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S90899f0e4c",
+      "url": "https://weaviate.io/developers/weaviate",
+      "title": "Weaviate vector database — curated background note",
+      "retrieved_at": "2026-10-30T02:35:40.496990Z",
+      "relevance_score": 1.0,
+      "authority_score": 0.55,
+      "used": true
+    },
+    {
+      "id": "Sc5f2c6c39c",
+      "url": "https://github.com/pgvector/pgvector",
+      "title": "pgvector retrieval — curated background note",
+      "retrieved_at": "2026-10-30T02:35:40.495989Z",
+      "relevance_score": 0.8,
+      "authority_score": 0.55,
+      "used": true
+    },
+    {
+      "id": "S5d131ce421",
+      "url": "https://qdrant.tech/documentation/",
+      "title": "Qdrant vector database — curated background note",
+      "retrieved_at": "2026-10-30T02:35:40.495989Z",
+      "relevance_score": 0.8,
+      "authority_score": 0.55,
+      "used": true
+    },
+    {
+      "id": "Sf110ffbdbe",
+      "url": "https://www.postgresql.org/docs/current/textsearch.html",
+      "title": "RAG retrieval benchmark design — curated design note",
+      "retrieved_at": "2026-10-30T02:35:40.495989Z",
+      "relevance_score": 0.8,
+      "authority_score": 0.55,
+      "used": true
+    },
+    {
+      "id": "S4787f38d03",
+      "url": "https://milvus.io/docs",
+      "title": "Milvus vector database — curated background note",
+      "retrieved_at": "2026-10-30T02:35:40.495989Z",
+      "relevance_score": 0.8,
+      "authority_score": 0.55,
+      "used": true
+    }
+  ],
+  "confidence": {
+    "level": "low",
+    "reasoning": "5 cited sources meet the authority threshold; entailment judging is heuristic. Insufficient verified independent evidence, mock mode, or verification issues. Curated local notes are not live verification; confidence is capped at medium."
+  },
+  "assumptions": [
+    "No budget, workload, or deployment constraints were supplied."
+  ],
+  "limitations": [
+    "Extractive fallback summarizes source excerpts, not an exhaustive comparison or verified ranking; requested counts may be unmet.",
+    "web_search failed after bounded attempts; see trace",
+    "Filtered 1 unsafe or weak source results",
+    "Offline mock run: fixture content is not current web research",
+    "Local corpus contains authored background notes, not freshly fetched primary evidence"
+  ],
+  "next_steps": [
+    "Verify primary sources and benchmark against your workload.",
+    "Gather additional independent primary evidence before deciding."
+  ],
+  "metadata": {
+    "run_id": "01ac7eebbdfc44bfbe9279f548471897",
+    "steps_taken": 3,
+    "tools_used": [
+      "web_search",
+      "local_kb",
+      "fetch_page"
+    ],
+    "latency_ms": 150.72,
+    "token_usage": {
+      "input": 0,
+      "output": 0
+    },
+    "est_cost_usd": 0.0
+  }
+}

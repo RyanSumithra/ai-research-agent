@@ -1,0 +1,5 @@
+{
+  "url": "https://openai.github.io/openai-agents-python/handoffs/",
+  "title": "Multi-agent handoff reliability \u2014 curated design note",
+  "text": "Multi-agent customer support handoffs need explicit ownership, bounded delegation, and preserved context to avoid loops or conflicting answers. Measure escalation correctness and end-to-end resolution rather than judging each specialist in isolation. More agents do not guarantee better support outcomes."
+}

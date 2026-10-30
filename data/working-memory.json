@@ -1,0 +1,5 @@
+{
+  "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+  "title": "Working memory in a support agent \u2014 curated design note",
+  "text": "Working memory in a support agent holds recent conversation context needed for the current task. Summarization and bounded windows reduce prompt size but can lose exact details. Preserve customer constraints explicitly and evaluate omission errors in follow-up questions."
+}

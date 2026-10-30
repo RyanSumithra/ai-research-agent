@@ -1,0 +1,7 @@
+pydantic>=2.10,<3
+httpx>=0.27,<1
+openai>=2.0,<3
+python-dotenv>=1.0,<2
+rich>=13.9,<15
+pytest>=8.0,<10
+PyYAML>=6.0,<7

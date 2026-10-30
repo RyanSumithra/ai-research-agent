@@ -1,0 +1,4 @@
+{
+  "scenario": "good",
+  "description": "Search and fetch use query-matched authored corpus notes; these are fixture evidence, not live page content."
+}

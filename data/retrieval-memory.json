@@ -1,0 +1,5 @@
+{
+  "url": "https://docs.langchain.com/oss/python/concepts/memory",
+  "title": "Retrieval memory in a support agent \u2014 curated design note",
+  "text": "Retrieval memory stores selected support facts outside the prompt and retrieves relevant entries for later interactions. Compare relevance, deletion behavior, provenance, and stale-memory errors against a simple conversation window. Persisting every interaction can increase privacy and retrieval noise risks."
+}

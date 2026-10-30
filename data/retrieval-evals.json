@@ -1,0 +1,5 @@
+{
+  "url": "https://www.postgresql.org/docs/current/textsearch.html",
+  "title": "RAG retrieval benchmark design \u2014 curated design note",
+  "text": "A RAG vector database comparison should measure recall, latency, ingestion behavior, filtering correctness, and operations under representative workloads. Define startup constraints before ranking products. Vendor feature lists alone do not establish the best option for a particular product."
+}

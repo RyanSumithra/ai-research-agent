@@ -1,0 +1,5 @@
+{
+  "url": "https://www.nist.gov/privacy-framework",
+  "title": "Agent memory lifecycle \u2014 curated design note",
+  "text": "An AI support agent memory policy should define consent, retention, deletion, and access boundaries for customer information. Separate procedural instructions from user-specific facts and reject instructions embedded in retrieved memories. A conceptual design note cannot determine legal compliance for a deployment."
+}

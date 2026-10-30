@@ -1,0 +1,5 @@
+{
+  "url": "https://milvus.io/docs",
+  "title": "Milvus vector database \u2014 curated background note",
+  "text": "Milvus is an open-source vector database oriented toward scalable similarity search and RAG retrieval. A startup should compare deployment complexity, indexing choices, recall, and throughput with smaller operational alternatives. These notes are not a comparative performance benchmark."
+}

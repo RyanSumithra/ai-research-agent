@@ -1,0 +1,5 @@
+{
+  "url": "https://github.com/pgvector/pgvector",
+  "title": "pgvector retrieval \u2014 curated background note",
+  "text": "pgvector adds vector similarity search to PostgreSQL, allowing a startup to keep relational data and RAG embeddings together. Compare existing database expertise and transactional requirements with indexing and scaling needs. Benchmark rather than assuming a dedicated vector database is always necessary."
+}
